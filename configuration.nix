@@ -117,6 +117,8 @@
     desktopManager.plasma5.enable = true;
     windowManager.i3.enable = true;
   };
+  
+  services.gnome3.gnome-keyring.enable = true;
 
   virtualisation.lxd.enable = true;
 
