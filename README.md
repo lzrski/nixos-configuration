@@ -15,15 +15,9 @@ I would say it's usable as a development machine. Some things I'm still figuring
     I3 with dual monitor, but it's mostly thanks to [dotfiles][].
 
 
-  - [ ] Magic Trackpad
+  - [x] Magic Trackpad
 
-    Basically works, including two fingers scrolling, but:
-
-      - tap / click sensitivity is weird
-      - gestures doesn't work
-      - scrolling is not natural
-
-    so I mostly use old Apple mouse for now.
+    Basically works, including two fingers natural scrolling. Gestures doesn't work but I don't miss them that much.
 
   - [x] Networking
 

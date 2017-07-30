@@ -16,8 +16,7 @@
 
   networking.hostName = "macbook-pro-nixos"; # Define your hostname.
   networking.networkmanager.enable = true;
- 
-  nixpkgs.config.allowUnfree = true; 
+
   hardware = {
     bluetooth.enable = true;
 
@@ -40,7 +39,7 @@
   fonts.fonts = with pkgs; [
     fira-code
   ];
-  
+
   programs.zsh.enable = true;
 
   # Set your time zone.
@@ -64,13 +63,13 @@
     i3lock
     arandr
     xlibs.xbacklight
-    
+
     # Development
     atom
-    
+
     # Various
     vlc
-    firefox 
+    firefox
     # gnome3.cheese # the only video app that I've had any success with Facetime HD camera, but now it's disabled anyway
   ];
 
@@ -101,7 +100,16 @@
       dev = "/dev/input/event*";
       twoFingerScroll = true;
       accelFactor = "0.001";
-      buttonsMap = [ 1 2 3 ];
+      buttonsMap = [ 1 3 2 ];
+      tapButtons = false;
+      palmDetect = true;
+      additionalOptions = ''
+        Option "VertScrollDelta" "-180" # scroll sensitivity, the bigger the negative number = less sensitive
+        Option "HorizScrollDelta" "-180"
+        Option "FingerLow" "40"
+        Option "FingerHigh" "70"
+        Option "Resolution" "270" # Pointer sensitivity, this is for a retina screen, so you'll probably need to change this for an air
+      '';
     };
 
     # Enable the KDE Desktop Environment.
