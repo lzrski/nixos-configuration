@@ -12,7 +12,7 @@ I would say it's usable as a development machine. Some things I'm still figuring
 
   - [x] Graphical UI
 
-    I3 with dual monitor, but it's mostly thanks to [dotfiles][x].
+    I3 with dual monitor, but it's mostly thanks to [dotfiles][].
 
 
   - [ ] Magic Trackpad
@@ -27,7 +27,7 @@ I would say it's usable as a development machine. Some things I'm still figuring
 
   - [x] Networking
 
-    Using Network Manager. The only problem is that WiFi passwords are not stored, but this is probably to be fixed in [dotfiles][x].
+    Using Network Manager. The only problem is that WiFi passwords are not stored, but this is probably to be fixed in [dotfiles][].
 
   - [x] Bluetooth speaker
 
